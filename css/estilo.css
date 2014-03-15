@@ -1,1 +1,56 @@
-body{background:#eee;margin:0;padding:0}nav{background:#fefefe;border:1px solid #ccc;border-width:1px 0;margin:0;padding:0;text-align:center;}nav .logo{margin:0 auto;padding:20px;text-align:center}nav li{display:inline;background:#b77210;}nav li a{background:#eaae18;color:#fff;display:inline-block;margin:5px;padding:15px;text-decoration:none;transition:1s background;}nav li a:hover{background:#eee;color:#006b3e}.fotos{margin:0;padding:0;}.fotos img{width:100%}.left{float:left}.rigth{float:Rigth}
+body {
+  background: #eee;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #fefefe;
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav .logo {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+}
+nav li a {
+  background: #b77210;
+  color: #fff;
+  display: inline-block;
+  margin: 5px;
+  padding: 15px;
+  text-decoration: none;
+  transition: 1s background;
+}
+nav li a:hover {
+  background: #eee;
+  color: #006b3e;
+}
+nav .menu {
+  background: #b77210;
+  margin: 0;
+}
+footer {
+  position: absolute;
+}
+.fotos {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.fotos img {
+  position: absolute;
+  width: 100%;
+}
+.left {
+  float: left;
+}
+.rigth {
+  float: Rigth;
+}
